@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { StepperService } from '../bottom-bar/services/stepper.service';
+import { StepperService } from '../services/stepper.service';
 
 @Component({
   selector: 'app-content',

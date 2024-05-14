@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { StepperService } from './services/stepper.service';
+import { StepperService } from '../services/stepper.service';
 
 @Component({
   selector: 'app-bottom-bar',

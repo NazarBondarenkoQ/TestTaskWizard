@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { StepperService } from '../bottom-bar/services/stepper.service';
+import { StepperService } from '../services/stepper.service';
 import {NgClass, NgForOf, NgIf} from "@angular/common";
 
 @Component({
