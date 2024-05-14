@@ -1,0 +1,20 @@
+hr {
+  border: none;
+  border-top: 2px dashed black;
+  width: 100vw;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.btn-custom {
+  background-color: #52c6c6;
+  color: white;
+  width: 120px;
+}
+
+.btn-custom:hover {
+  background-color: #45a6a6;
+}
+
+

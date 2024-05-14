@@ -1,0 +1,19 @@
+<div class="container mt-5">
+  <div class="row justify-content-center">
+    <div class="col-12">
+      <div class="stepper-wrapper">
+        <ul class="stepper d-flex list-unstyled position-relative">
+          <li *ngFor="let item of items; let i = index" class="step-item">
+            <div
+              class="circle"
+              [ngClass]="{'active text-white': i === currentIndex, 'bg-light': i !== currentIndex}"
+            >
+              {{ item }}
+            </div>
+            <div *ngIf="i < items.length - 1" class="line"></div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
